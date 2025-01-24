@@ -34,7 +34,7 @@ export default function Reservations() {
                 id="date"
                 type="date"
                 required
-                className="block w-full border rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
+                className="block w-full border text-black rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
                 onChange={(e) => setFormData({ ...formData, date: e.target.value })}
               />
             </div>
@@ -48,7 +48,7 @@ export default function Reservations() {
                 id="time"
                 type="time"
                 required
-                className="block w-full border rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
+                className="block w-full border  text-black rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
                 onChange={(e) => setFormData({ ...formData, time: e.target.value })}
               />
             </div>
@@ -81,7 +81,7 @@ export default function Reservations() {
                 id="name"
                 type="text"
                 required
-                className="block w-full border rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
+                className="block w-full border text-black rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               />
             </div>
@@ -95,7 +95,7 @@ export default function Reservations() {
                 id="email"
                 type="email"
                 required
-                className="block w-full border rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
+                className="block w-full border text-black rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               />
             </div>
@@ -109,7 +109,7 @@ export default function Reservations() {
                 id="phone"
                 type="tel"
                 required
-                className="block w-full border rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
+                className="block w-full border text-black rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
               />
             </div>
@@ -123,7 +123,7 @@ export default function Reservations() {
             <textarea
               id="specialRequests"
               rows={4}
-              className="block w-full border rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
+              className="block w-full border text-black rounded-md px-3 py-2 border-[#cc3333]/20 focus:border-[#cc3333] focus:ring-[#cc3333]"
               onChange={(e) => setFormData({ ...formData, specialRequests: e.target.value })}
             />
           </div>
