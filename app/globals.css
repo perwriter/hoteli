@@ -25,3 +25,30 @@ body {
     --primary: #cc3333;
   }
 }
+/* global.css or styles/globals.css */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cc3333;
+  /* background: var(--scrollbar-bg); */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cc3333;
+  /* background: var(--scrollbar-thumb); */
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc3333;
+  /* background: var(--scrollbar-thumb-hover); */
+}
+
+* {
+  scrollbar-width: thin;
+  /* scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-bg); */
+  scrollbar-color: #cc3333;
+}
